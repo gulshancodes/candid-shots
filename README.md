@@ -1,2 +1,1 @@
-# candid-shots
-Photography Booking Website by Gulshan Songara
+# Candid Shots - Photography Booking Website
