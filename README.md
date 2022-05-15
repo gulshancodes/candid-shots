@@ -21,12 +21,12 @@ This was the very first website I designed and built for my College Project in 2
 - #### **JavaScript**
 <br/>
 
-## Author 👨‍💻
+## Author:
 
 - **Gulshan Songara** - **[Portfolio Website](https://gulshansongara.netlify.app)**, **[Linkedin](https://www.linkedin.com/in/gulshan-songara-75084214b/)** 
 <br/>
 
-## License 📄
+## License:
 
 This project is licensed under the  **GPL-3.0** License - see the [LICENSE](LICENSE) file for details.
 
