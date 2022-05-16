@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Login Page - Candid Shots</title>
+	<!-- Designed & Coded by: GULSHAN SONGARA -->
+
+	<!------------------- Favicon ------------------->
+	<link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+	<!------------------- Font Awesome ------------------->
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+
+	<!------------------- Main css ------------------->
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+
+	<!---=============== Preloader ===============--->
+	<div class="loader">
+		<div class="ring"></div>
+		<div class="ring"></div>
+		<div class="ring"></div>
+	</div>
+	<!-- /Preloader -->
+
+	<!---=============== Scroll-to-Top Button ===============--->
+	<button type="button" class="scroll-top" title="Go to Top">
+		<i class="fas fa-arrow-circle-up"></i>
+	</button>
+	<!-- /Scroll-to-Top Button -->
+
+	<!---=============== Header Section ===============--->
+	<header id="header" class="login-nav">
+		<nav class="nav">
+			<div class="nav-brand">
+				<a href="index.html">Candid <span>Shots</span></a>
+			</div>
+			<div class="nav-bar">
+				<ul class="nav-list">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="index.html#services">Services</a></li>
+					<li><a href="index.html#gallery">Gallery</a></li>
+					<li><a href="team.html">Team</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<!-- /Header Section -->
+
+	<!---=============== Side-bar Section ===============--->
+	<aside id="side-bar">
+		<ul class="nav-list">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="index.html#services">Services</a></li>
+			<li><a href="index.html#gallery">Gallery</a></li>
+			<li><a href="team.html">Team</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</aside>
+	<div class="sidebar-btn">
+		<span class="top"></span>
+		<span class="middle"></span>
+		<span class="bottom"></span>
+	</div>
+	<!-- /Side-bar Section -->
+
+	<!---=============== Login Section ===============--->
+	<section id="login">
+		<form class="login-form">
+			<h1 class="login-head">Log in</h1>
+
+			<i class="fas fa-user"></i>
+			<input type="text" placeholder="Username*" class="username" required><br>
+
+			<i class="fas fa-lock"></i>
+			<input type="password" placeholder="Password*" class="password" required><br>
+
+			<button type="submit" class="login-btn">Log in</button><br>
+			<span class="login-foot">Forgot Password &nbsp; | &nbsp;<a href="signup.html"> Sign up</a></span>
+		</form>
+	</section>
+	<!-- /Login Section -->
+
+	<!---=============== Footer Section ===============--->
+	<footer id="foot">
+		<div class="row-foot">
+			<div class="col-foot-bg">
+				<h3>Candid <span>Shots</span></h3>
+				<p>Many more photographers for every occassion. Specialize in Wedding, Portfolio and a lot more.
+				</p>
+				<div class="social-links">
+					<h4>Connect with us on - </h4>
+					<a href="#"><img src="assets/img/icons/facebook.png"></a>
+					<a href="#"><img src="assets/img/icons/instagram.png"></a>
+					<a href="#"><img src="assets/img/icons/twitter.png"></a>
+				</div>
+			</div>
+			<div class="col-foot-sm">
+				<h4>Navigation Links</h4>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="index.html#services">Services</a></li>
+					<li><a href="index.html#gallery">Gallery</a></li>
+					<li><a href="team.html">Team</a></li>
+				</ul>
+			</div>
+			<div class="col-foot-sm">
+				<h4>Useful Links</h4>
+				<ul>
+					<li><a href="index.html#about">About us</a></li>
+					<li><a href="contact.html">Contact us</a></li>
+					<li><a href="index.html#reviews">Reviews</a></li>
+					<li><a href="login.html">Login</a></li>
+				</ul>
+			</div>
+			<div class="col-foot-sm">
+				<h4>Informations</h4>
+				<ul>
+					<li><a href="index.html">Ask Question</a></li>
+					<li><a href="index.html">Disclaimer</a></li>
+					<li><a href="index.html">Privacy Policy</a></li>
+					<li><a href="index.html">Terms</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="copyright">
+			<p> &#169;
+				<script>
+					document.write(new Date().getFullYear());
+				</script>
+				All Rights Reserved. <br> <span>Designed & Built by | <a href="https://gulshansongara.netlify.app/"
+						target="_blank">Gulshan Songara</a> </span>
+			</p>
+		</div>
+	</footer>
+	<!-- /Footer Section -->
+
+	<!---=============== JavaScript Files ===============--->
+	<script src="assets/js/main.js"></script>
+
+	<!-- Login form submission -->
+	<script>
+		let logForm = document.querySelector(".login-form");
+		logForm.addEventListener('submit', function () {
+			alert("You are successfully Logged in");
+			location.href = "index.html";
+		});
+	</script>
+
+</body>
+
+</html>

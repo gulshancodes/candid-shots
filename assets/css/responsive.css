@@ -1,0 +1,503 @@
+/*
+	* Project Name: "Candid Shots" (Photography Booking Website)
+	* Designed & Coded by: GULSHAN SONGARA
+*/
+
+
+/*==================-- X-Large --==================*/
+
+@media (max-width: 1399px) {
+
+    /*-- all containers --*/
+    .row-about,
+    .row-work,
+    .row-gallery,
+    .row-foot,
+    .row-contact {
+        max-width: 1280px;
+    }
+
+    /*-- header-section --*/
+    .nav {
+        max-width: 1140px;
+    }
+
+    /*-- hero-section --*/
+    .hero-content > h1 {
+        font-size: 26px;
+    }
+}
+
+/*==================-- Large --==================*/
+
+@media (max-width: 1199px) {
+
+    /*-- all containers --*/
+    .nav,
+    .row-about,
+    .row-work,
+    .row-gallery,
+    .row-foot,
+    .row-contact {
+        max-width: 980px;
+    }
+
+    /*-- hero-section --*/
+    .hero-content {
+        left: 67%;
+    }
+
+    .hero-content > h1 {
+        font-size: 22px;
+    }
+
+    .hero-content > h2 {
+        font-size: 12px;
+    }
+
+    /*-- about-section --*/
+    .col-about-1 {
+        margin-right: 30px;
+    }
+
+    .col-about-2 {
+        margin-left: 30px;
+    }
+   
+    /*-- work-section --*/
+    .col-work {
+        width: 320px;
+    	height: 250px;
+        padding: 40px 20px;
+    }
+
+    /*-- gallery-section --*/
+    .filter-list > ul {
+        width: 94%;
+    }
+}
+
+/*==================-- Medium-1 --==================*/
+
+@media (max-width: 991px) {
+
+    /*-- all containers --*/
+    .nav,
+    .row-about,
+    .row-work,
+    .row-gallery,
+    .row-foot,
+    .row-contact {
+        max-width: 850px;
+    }
+
+    /*-- about-section --*/
+    .col-about-img {
+        max-width: 200px;
+        overflow: hidden;
+    }
+
+    .col-about-1 {
+        margin-right: 20px;
+    }
+
+    .col-about-2 {
+        margin-left: 20px;
+    }
+
+    .col-about-1 > p, 
+    .col-about-2 > p {
+        font-size: 13px;
+    }
+
+    /*-- work-section --*/
+    .col-work {
+        width: 280px;
+    	height: 250px;
+        padding: 40px 8px;
+    }
+ 
+    .col-work > p {
+        font-size: 13px;
+    }
+
+    /*-- gallery-section --*/
+    .filter-list > ul {
+        width: 100%;
+    }
+
+    .filter-list li {
+        margin: 0 8px;
+    	padding: 8px 20px;
+    }
+
+    /*-- reviews-section --*/
+    .reviews-swiper .swiper-slide {
+        -webkit-transition-property: transform;
+	    -moz-transition-property: transform;
+	    -ms-transition-property: transform;
+	    -o-transition-property: transform;
+	    transition-property: transform;
+    }
+
+    /*-- team-section --*/
+    .check {
+        max-width: 800px;
+    }
+
+    .check > h2 {
+        font-size: 16px;
+    }
+}
+
+/*==================-- Medium-2 --==================*/
+
+@media (max-width: 877px) {
+
+    /*-- all containers --*/
+    .row-about,
+    .row-work,
+    .row-gallery,
+    .row-foot,
+    .row-contact {
+        max-width: 760px;
+    }
+
+    /*-- header-section --*/
+    .nav-bar {
+        display: none;
+    }
+
+    /*-- sidebar-section --*/
+    #side-bar,
+    .sidebar-btn {
+        display: block;
+    }
+
+    /*-- hero-section --*/
+    .hero-content {
+        width: 35%;
+    }
+
+    /*-- about-section --*/
+    .col-about-img {
+        max-width: 175px;
+        overflow: hidden;
+    }
+
+    .col-about-1 {
+        margin-right: 14px;
+    }
+
+    .col-about-2 {
+        margin-left: 14px;
+    }
+
+    .col-about-1 > p, 
+    .col-about-2 > p {
+        font-size: 12px;
+        letter-spacing: 0.9px;
+    }
+
+    /*-- work-section --*/
+    .col-work {
+        width: 200px;
+    	height: 250px;
+        padding: 40px 8px;
+    }
+
+    /*-- gallery-section --*/
+    .filter-list li {
+        margin: 0 5px;
+    	padding: 7px 20px;
+        font-size: 12px;
+    }
+
+    /*-- team-section --*/
+    .check {
+        max-width: 700px;
+    }
+
+    .check > h2 {
+        font-size: 15px;
+    }
+}
+
+/*==================-- Small --==================*/
+
+@media (max-width: 767px) {
+
+    /*-- all containers --*/
+    .row-about,
+    .row-work,
+    .row-gallery,
+    .row-foot {
+        max-width: 570px;
+    }
+
+    .row-contact {
+        max-width: 600px;
+    }
+
+    /*-- hero-section --*/
+    #hero {
+        background-image: -webkit-linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.6)), url('../img/hero2.jpg');
+        background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.6)), url('../img/hero2.jpg');
+        background-position: center;
+        background-size: cover;
+        min-height: 80vh;
+    }
+
+    .hero-content {
+        width: 100%;
+        left: 50%;
+        padding: 0 8px;
+        text-align: center;
+    }
+
+    /*-- about-section --*/
+    .col-about-img {
+        max-width: 200px;
+        overflow: hidden;
+    }
+
+    .col-about-1 {
+        order: 1;
+        text-align: left;
+        margin-left: 25px;
+    }
+
+    .col-about-2 {
+        display: none;
+    }
+
+    /*-- work-section --*/
+    .row-work {
+        flex-direction: column;
+        margin: 60px auto 0;
+    }
+
+    .col-work {
+        width: 80%;
+        height: 100%;
+        padding: 10px 0;
+        margin: 20px auto;
+    }
+
+    .col-work > i.fa {
+        font-size: 13px;
+        width: 28px;
+	    height: 28px;
+        padding: 7px;
+    }
+
+    .col-work > h4 {
+        margin: 8px 0;
+        font-size: 12px;
+    }
+
+    .col-work > p {
+        font-size: 11px;
+    }
+
+    .col-work > b {
+        font-size: 70px;
+        top: 20%;
+        left: 10%;
+    }
+
+    /*-- gallery-section --*/
+    #gallery {
+        padding-bottom: 60px;
+    }
+
+    .filter-list > ul {
+        display: none;
+    }
+
+    .gallery-wrapper > .item-box {
+        flex-basis: 40% ;
+    }
+
+    /*-- view-banner-section --*/
+    .view {
+	    padding: 40px 20px;
+    }
+
+    .view > h1 {
+        font-size: 20px;
+    }
+
+    .view > p {
+        font-size: 13px;
+    }
+
+    /*-- footer-section --*/
+    .row-foot {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .col-foot-bg {
+        padding: 0;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .col-foot-sm {
+        padding: 0;
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .col-foot-sm > ul {
+        margin: 15px 0;
+    }
+
+    /*-- team-section --*/
+    .check {
+        width: 100%;
+        border-radius: 0;
+        flex-direction: column;
+        padding: 35px 10px 30px;
+    }
+
+    .check > h2 {
+        margin-bottom: 20px;
+    }
+
+    /*-- contact-section --*/
+    .contact-links li {
+        font-size: 13px;
+    }
+}
+
+/*==================-- X-small --==================*/
+
+@media (max-width: 575px) {
+
+    /*-- all containers --*/
+    .row-about,
+    .row-work,
+    .row-gallery,
+    .row-foot,
+    .row-contact {
+        width: 100%;
+    }
+
+    /*-- header-section --*/
+    .nav-brand > a {
+        font-size: 13px;
+    }
+
+    /*-- sidebar-section --*/
+    .sidebar-btn {
+        transform: scale(0.8);
+    }
+
+    /*-- about-section --*/
+    .col-about-img {
+        display: none;
+    }
+
+    .col-about-1 {
+        text-align: center;
+    }
+
+    .col-about-1 > h3 {
+        font-size: 15px;
+    }
+
+    .col-about-1 > p {
+        font-size: 10px;
+    }
+
+    /*-- view-banner-section --*/
+    .view {
+	    padding: 40px 8px;
+    }
+
+    .view > h1 {
+        font-size: 14px;
+    }
+
+    .view > p {
+        width: auto;
+        font-size: 12px;
+    }
+
+    /*-- gallery-section --*/
+    .gallery-wrapper > .item-box > .after-txt,
+    .gallery-wrapper > .item-box::after {
+        display: none;
+    }
+
+    /*-- footer-section --*/
+    .copyright > p > br {
+        display: block;
+    }
+
+    .copyright > p > span {
+        display: inline-block;
+        margin-top: 6px;
+    }
+
+    /*-- contact-section --*/
+    .contact-head > p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .row-contact {
+        margin-top: 80px;
+    }
+
+    .contact-links > ul {
+        flex-direction: column;
+    }
+
+    .contact-links li:nth-child(2) {
+        margin: 22px 0px;
+    }
+
+    .form-name,
+    .form-mail {
+        width: 96%;
+    }
+
+    .form-mail {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    /*-- login-section --*/
+    .login-form {
+        width: 340px;
+    }
+
+    .signup-form {
+        width: 380px;
+    }
+
+    .username,
+    .password,
+    .email {
+       width: 220px;
+    }
+
+    /*-- Swiper-Slides --*/
+    .services-swiper .swiper-slide {
+       width: 280px;
+       height: 240px;
+    }
+
+    .services-swiper .services-img {
+       width: 270px;
+    }
+
+    .reviews-swiper .swiper-slide {
+       width: 300px;
+       height: 320px;
+    }
+}
